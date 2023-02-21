@@ -1,0 +1,15 @@
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.csproj.AssemblyReference.cache
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.AssemblyInfoInputs.cache
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.AssemblyInfo.cs
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.csproj.CoreCompileInputs.cache
+D:\C#\The_bank\The_bank\bin\Debug\net7.0\The_bank.exe
+D:\C#\The_bank\The_bank\bin\Debug\net7.0\The_bank.deps.json
+D:\C#\The_bank\The_bank\bin\Debug\net7.0\The_bank.runtimeconfig.json
+D:\C#\The_bank\The_bank\bin\Debug\net7.0\The_bank.dll
+D:\C#\The_bank\The_bank\bin\Debug\net7.0\The_bank.pdb
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.dll
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\refint\The_bank.dll
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.pdb
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\The_bank.genruntimeconfig.cache
+D:\C#\The_bank\The_bank\obj\Debug\net7.0\ref\The_bank.dll

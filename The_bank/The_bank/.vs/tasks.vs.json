@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-The_bank.csproj.nuget.g",
+      "appliesTo": "obj/The_bank.csproj.nuget.g.targets",
+      "type": "launch"
+    }
+  ]
+}
