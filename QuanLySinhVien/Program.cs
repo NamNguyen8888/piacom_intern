@@ -1,7 +1,13 @@
+using QuanLySinhVien.Context;
+using QuanLySinhVien.Repositories;
+using QuanLySinhVien.Repositories.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddSingleton<DapperContext>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
