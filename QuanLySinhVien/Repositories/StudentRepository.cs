@@ -36,5 +36,8 @@ public class StudentRepository : IStudentRepository
         return await conn.QueryAsync<Majors>(sql);
     }
 
-
+    public Majors GetMajors()
+    {
+        return new Majors();
+    }
 }

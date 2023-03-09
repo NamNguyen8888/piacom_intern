@@ -6,4 +6,5 @@ public interface IStudentRepository
 {
     Task<bool> Add(Majors majors);
     Task<IEnumerable<Majors>> GetAll();
+    Majors GetMajors(); 
 }

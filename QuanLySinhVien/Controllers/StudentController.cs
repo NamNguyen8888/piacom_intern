@@ -34,6 +34,22 @@ namespace QuanLySinhVien.Controllers
                 return NotFound();
             }
         }
+        [HttpGet("Test")]
+        public IActionResult Test()
+        {
+            try
+            {
+                var response =  _repo.GetMajors();
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogDebug(ex.Message);
+                _logger.LogDebug(ex.StackTrace);
+                return NotFound();
+            }
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> Post(Majors majors)
