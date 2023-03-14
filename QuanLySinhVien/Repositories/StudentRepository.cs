@@ -38,5 +38,8 @@ public class StudentRepository : IStudentRepository
         return new Response<IEnumerable<Majors>>(true, "Thành công", "", majors);
     }
 
-
+    public Majors GetMajors()
+    {
+        return new Majors();
+    }
 }
