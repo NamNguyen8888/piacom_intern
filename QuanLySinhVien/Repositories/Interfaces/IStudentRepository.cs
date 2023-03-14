@@ -1,9 +1,10 @@
 using QuanLySinhVien.Domains.Entities;
+using QuanLySinhVien.Model;
 
 namespace QuanLySinhVien.Repositories.Interfaces;
 
 public interface IStudentRepository
 {
     Task<bool> Add(Majors majors);
-    Task<IEnumerable<Majors>> GetAll();
+    Task<Response<IEnumerable<Majors>>> GetAll();
 }

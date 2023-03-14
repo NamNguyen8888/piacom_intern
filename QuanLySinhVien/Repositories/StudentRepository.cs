@@ -2,6 +2,7 @@ using System.Data;
 using Dapper;
 using QuanLySinhVien.Context;
 using QuanLySinhVien.Domains.Entities;
+using QuanLySinhVien.Model;
 using QuanLySinhVien.Repositories.Interfaces;
 
 namespace QuanLySinhVien.Repositories;
@@ -29,11 +30,12 @@ public class StudentRepository : IStudentRepository
         return result > 0;
     }
 
-    public async Task<IEnumerable<Majors>> GetAll()
+    public async Task<Response<IEnumerable<Majors>>> GetAll()
     {
         using var conn = _context.CreateConnection();
         string sql = "Select * From dbo.Majors";
-        return await conn.QueryAsync<Majors>(sql);
+        var majors = await conn.QueryAsync<Majors>(sql);
+        return new Response<IEnumerable<Majors>>(true, "Thành công", "", majors);
     }
 
 
